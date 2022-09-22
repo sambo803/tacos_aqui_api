@@ -1,2 +1,22 @@
 ### get carts index
 GET http://localhost:3000/carts.json
+
+### Owners create (signup)
+POST http://localhost:3000/owners.json
+Content-Type: application/json
+
+{
+  "name": "Test name",
+  "email": "test@test.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
+
+### Sessions create (login)
+POST http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "password"
+}
