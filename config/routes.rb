@@ -9,4 +9,6 @@ Rails.application.routes.draw do
 
   post "/sessions" => "sessions#create"
 
+  patch "/carts/:id" => "carts#update"
+
 end

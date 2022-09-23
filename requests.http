@@ -20,3 +20,16 @@ Content-Type: application/json
   "email": "test@test.com",
   "password": "password"
 }
+
+### patch carts update
+PATCH http://localhost:3000/carts/1.json
+Content-Type: application/json
+
+{
+  "name": "Senor Miguel's",
+  "location": "9200 Riverdale Rd",
+  "latitude": "39.87044258757451",
+  "longitude": "-104.93079926895481",
+  "email": "miguel@miguel.com",
+  "phone_number": "720-434-7678"
+}
