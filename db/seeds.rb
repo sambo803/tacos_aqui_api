@@ -13,4 +13,10 @@ cart = Cart.new(name: "Ruby's Treats", location: "W. 23rd and Eliot St", latitud
 cart = Cart.new(name: "Ronaldo's Tamales", location: "4400 N. Tejon St", latitude: 39.776510929891074, longitude: -105.01112109060736, email: "ronaldos@ronaldos.com", phone_number: "720-543-0976")
 # cart.save
 cart = Cart.new(name: "Samuel's Burritos", location: "W. Dartmout and S. Lamar", latitude: 39.65969794446177, longitude: -105.06748859825893, email: "samuels@samuels.com", phone_number: "303-322-6162")
-cart.save
+# cart.save
+cart = Cart.new(name: "Samuel's Burritos", location: "W. Dartmout and S. Lamar", latitude: 39.65969794446177, longitude: -105.06748859825893, email: "samuels@samuels.com", phone_number: "303-322-6162")
+# cart.save
+cart = Cart.new(name: "Samuel's Burritos", location: "W. Dartmout and S. Lamar", latitude: 39.65969794446177, longitude: -105.06748859825893, email: "samuels@samuels.com", phone_number: "303-322-6162")
+# cart.save
+cart = Cart.new(name: "Samuel's Burritos", location: "W. Dartmout and S. Lamar", latitude: 39.65969794446177, longitude: -105.06748859825893, email: "samuels@samuels.com", phone_number: "303-322-6162")
+# cart.save

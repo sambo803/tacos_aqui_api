@@ -22,14 +22,16 @@ Content-Type: application/json
 }
 
 ### patch carts update
-PATCH http://localhost:3000/carts/1.json
+PATCH http://localhost:3000/carts/8.json
 Content-Type: application/json
 
 {
-  "name": "Senor Miguel's",
+  "name": "Senor Miguel's II",
   "location": "9200 Riverdale Rd",
   "latitude": "39.87044258757451",
   "longitude": "-104.93079926895481",
   "email": "miguel@miguel.com",
   "phone_number": "720-434-7678"
 }
+###
+GET http://localhost:3000/carts/6.json

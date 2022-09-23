@@ -3,6 +3,12 @@ class CartsController < ApplicationController
     carts = Cart.all
     render json: carts.as_json
   end
+
+  def show
+    cart = Cart.find_by(id: params[:id])
+    render json: cart.as_json
+  end
+  
   def update
     cart = Cart.find_by(id: params[:id])
     cart.name = params[:name] || cart.name
