@@ -21,6 +21,19 @@ Content-Type: application/json
   "password": "password"
 }
 
+### post carts create 
+POST http://localhost:3000/carts.json
+Content-Type: application/json
+
+{
+  "name": "Chinti's Tacos II",
+  "location": "17th and Wolff St",
+  "longitude": "-105.048627",
+  "latitude": "39.744137",
+  "email": "chinti@chinti.com",
+  "phone_number": "7209878765"
+}
+
 ### patch carts update
 PATCH http://localhost:3000/carts/8.json
 Content-Type: application/json
@@ -33,5 +46,7 @@ Content-Type: application/json
   "email": "miguel@miguel.com",
   "phone_number": "720-434-7678"
 }
-###
+
+### get show for frontend edit feature
 GET http://localhost:3000/carts/6.json
+

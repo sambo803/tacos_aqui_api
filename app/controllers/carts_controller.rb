@@ -3,6 +3,19 @@ class CartsController < ApplicationController
     carts = Cart.all
     render json: carts.as_json
   end
+  
+  def create
+    cart = Cart.new(
+      name: params[:name],
+      location: params[:location],
+      longitude: params[:longitude],
+      latitude: params[:latitude],
+      email: params[:email],
+      phone_number: params[:phone_number]
+    )
+    cart.save
+    render json: cart.as_json
+  end
 
   def show
     cart = Cart.find_by(id: params[:id])

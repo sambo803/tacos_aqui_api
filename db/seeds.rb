@@ -20,3 +20,14 @@ cart = Cart.new(name: "Samuel's Burritos", location: "W. Dartmout and S. Lamar",
 # cart.save
 cart = Cart.new(name: "Samuel's Burritos", location: "W. Dartmout and S. Lamar", latitude: 39.65969794446177, longitude: -105.06748859825893, email: "samuels@samuels.com", phone_number: "303-322-6162")
 # cart.save
+
+owner = Owner.new(name: "Sally Chavez", email: "sally@sally.com", password_digest: "password")
+# owner.save
+owner = Owner.new(name: "Ruby Gallegos", email: "ruby@ruby.com", password_digest: "password")
+# owner.save
+owner = Owner.new(name: "Ronaldo Smith", email: "ronaldo@ronaldo.com", password_digest: "password")
+# owner.save
+owner = Owner.new(name: "Chinti Santiago", email: "chinti@chinti.com", password_digest: "password")
+# owner.save
+owner = Owner.new(name: "Luigi Santiago", email: "luigi@luigi.com", password_digest: "password")
+# owner.save
