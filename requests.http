@@ -31,20 +31,22 @@ Content-Type: application/json
   "longitude": "-105.048627",
   "latitude": "39.744137",
   "email": "chinti@chinti.com",
-  "phone_number": "7209878765"
+  "phone_number": "7209878765",
+  "image_url": ""
 }
 
 ### patch carts update
-PATCH http://localhost:3000/carts/8.json
+PATCH http://localhost:3000/carts/3.json
 Content-Type: application/json
 
 {
-  "name": "Senor Miguel's II",
-  "location": "9200 Riverdale Rd",
-  "latitude": "39.87044258757451",
-  "longitude": "-104.93079926895481",
-  "email": "miguel@miguel.com",
-  "phone_number": "720-434-7678"
+  "name": "Tacos Jaliscos",
+  "location": "20th and Wazee",
+  "latitude": "39.754971979447596",
+  "longitude": "-104.99546343634663",
+  "email": "sallystacos@tacos.com",
+  "phone_number": "720-458-0998",
+  "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/HA6_t6oW5o7wfeH912D-Ew/348s.jpg"
 }
 
 ### get show for frontend edit feature

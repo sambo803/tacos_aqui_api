@@ -11,7 +11,8 @@ class CartsController < ApplicationController
       longitude: params[:longitude],
       latitude: params[:latitude],
       email: params[:email],
-      phone_number: params[:phone_number]
+      phone_number: params[:phone_number],
+      image_url: params[:image_url]
     )
     cart.save
     render json: cart.as_json
@@ -30,6 +31,7 @@ class CartsController < ApplicationController
     cart.longitude = params[:longitude] || cart.longitude
     cart.email = params[:email] || cart.email
     cart.phone_number = params[:phone_number] || cart.phone_number
+    cart.image_url = params[:image_url] || cart.image_url
     cart.save
     render json: cart.as_json
   end
