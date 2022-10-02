@@ -36,17 +36,17 @@ Content-Type: application/json
 }
 
 ### patch carts update
-PATCH http://localhost:3000/carts/3.json
+PATCH http://localhost:3000/carts/5.json
 Content-Type: application/json
 
 {
-  "name": "Tacos Jaliscos",
-  "location": "20th and Wazee",
-  "latitude": "39.754971979447596",
-  "longitude": "-104.99546343634663",
-  "email": "sallystacos@tacos.com",
-  "phone_number": "720-458-0998",
-  "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/HA6_t6oW5o7wfeH912D-Ew/348s.jpg"
+  "name": "Ruby's Treats",
+  "location": "W. 23rd and Eliot St",
+  "latitude": "39.751310",
+  "longitude": "-105.023577",
+  "email": "ruby@ruby.com.com",
+  "phone_number": "720-458-0567",
+  "image_url": "https://roaminghunger.com/blog/wp-content/uploads/2022/05/Gs-Taco-Spot-Los-Angeles.jpg"
 }
 
 ### get show for frontend edit feature
