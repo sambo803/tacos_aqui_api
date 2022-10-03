@@ -12,6 +12,6 @@ Rails.application.routes.draw do
 
   post "/sessions" => "sessions#create"
 
- 
+  get "/shortest_routes" => "shortest_routes#index"
 
 end

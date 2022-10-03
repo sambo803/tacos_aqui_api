@@ -1,6 +1,9 @@
 ### get carts index
 GET http://localhost:3000/carts.json
 
+### get shortest_routes path index
+GET http://localhost:3000/shortest_routes.json
+
 ### Owners create (signup)
 POST http://localhost:3000/owners.json
 Content-Type: application/json
