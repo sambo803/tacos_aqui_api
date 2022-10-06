@@ -1,6 +1,6 @@
 class ShortestRoutesController < ApplicationController
   def index
-    response = HTTP.get("https://api.mapbox.com/directions-matrix/v1/mapbox/driving/-105.07044,39.66747;-104.837684,39.65612;-105.06748859825893,39.65969794446177;-105.289425,39.929021?sources=1&annotations=distance,duration&access_token=#{Rails.application.credentials.mapbox_api_key}")
+    response = HTTP.get("https://api.mapbox.com/directions-matrix/v1/mapbox/driving/-105.07044,39.66747;-104.99546343634663,39.754971979447596;-105.04410465714048,39.74027577412321;-105.023577,39.75131;-104.837684,39.65612;-105.171398,39.646674;-105.046444,39.735469;-104.93079926895481,39.87044258757451;-105.146089,39.871061;-105.289425,39.929021;-105.085644,39.542002;-104.77208641547043,39.69678852815054;-105.27632975668556,40.00570856999092;-105.06748859825893,39.65969794446177?sources=0&destinations=1;2;3;4;5;6;7;8;9;10;11;12;13&annotations=distance,duration&access_token=#{Rails.application.credentials.mapbox_api_key}")
     render json: response.parse
   end
 end
